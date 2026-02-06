@@ -25,7 +25,7 @@ export default class Portfolio extends Component {
                         </div>
                       </div>
                       <div className="link-icon">
-                        <i className="icon-plus" />
+                        <i className="fa fa-plus" />
                       </div>
                     </a>
                   </div>
@@ -42,7 +42,7 @@ export default class Portfolio extends Component {
                         </div>
                       </div>
                       <div className="link-icon">
-                        <i className="icon-plus" />
+                        <i className="fa fa-plus" />
                       </div>
                     </a>
                   </div>
@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                         </div>
                       </div>
                       <div className="link-icon">
-                        <i className="icon-plus" />
+                        <i className="fa fa-plus" />
                       </div>
                     </a>
                   </div>
@@ -76,7 +76,7 @@ export default class Portfolio extends Component {
                         </div>
                       </div>
                       <div className="link-icon">
-                        <i className="icon-plus" />
+                        <i className="fa fa-plus" />
                       </div>
                     </a>
                   </div>

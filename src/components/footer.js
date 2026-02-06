@@ -56,7 +56,7 @@ export default class Header extends Component {
             </div>
             <div id="go-top">
               <a className="smoothscroll" title="Back to Top" href="#home">
-                <i className="icon-up-open" />
+                <i className="fa fa-angle-up" />
               </a>
             </div>
           </div>
