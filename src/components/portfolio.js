@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
-    
+
     return (
       <React.Fragment>
         {/*generated code*/}
@@ -17,11 +17,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt="Screen shot frm the ZTM coding competition 6 submission" src="images/portfolio/CodingCompetition.jpg" />
+                      <img alt="Canvas FFT Flashcards" src="images/portfolio/ASLexpress.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Coding Competition</h5>
-                          <p>Javascript and CSS</p>
+                          <h5>Canvas FFT Flashcards</h5>
+                          <p>Canvas LTI, SproutVideo API, AI Integration</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -34,11 +34,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt="Screen shot of ASL Geography SimpleMaps project" src="images/portfolio/SimpleMaps.jpg" />
+                      <img alt="Bulk Canvas Editor" src="images/portfolio/ASLexpress.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>SimpleMaps</h5>
-                          <p>Web Development - Youtube API</p>
+                          <h5>Bulk Canvas Editor</h5>
+                          <p>NestJS, TypeScript, Canvas REST API, AG Grid</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -72,7 +72,41 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>SnapShot ASL</h5>
-                          <p>3D Fingerspelling Recognizier</p>
+                          <p>3D Fingerspelling Recognizer</p>
+                        </div>
+                      </div>
+                      <div className="link-icon">
+                        <i className="fa fa-plus" />
+                      </div>
+                    </a>
+                  </div>
+                </div>{' '}
+                {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-05" title>
+                      <img alt="Screen shot of ASL Geography SimpleMaps project" src="images/portfolio/SimpleMaps.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>SimpleMaps</h5>
+                          <p>Web Development - Youtube API</p>
+                        </div>
+                      </div>
+                      <div className="link-icon">
+                        <i className="fa fa-plus" />
+                      </div>
+                    </a>
+                  </div>
+                </div>{' '}
+                {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-06" title>
+                      <img alt="Screen shot from the ZTM coding competition 6 submission" src="images/portfolio/CodingCompetition.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>Coding Competition</h5>
+                          <p>Javascript and CSS</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -85,26 +119,25 @@ export default class Portfolio extends Component {
               {/* portfolio-wrapper end */}
             </div>{' '}
             {/* twelve columns end */}
-            {/* Modal Popup
-                --------------------------------------------------------------- */}
+            {/* Modal Popups */}
             <div id="modal-01" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/CodingCompetition.jpg"
-                alt="Screen shot frm the ZTM coding competition 6 submission"
+                src="images/portfolio/ASLexpress.jpg"
+                alt="Canvas FFT Flashcards"
               />
               <div className="description-box">
-                <h4>Coding Competition</h4>
+                <h4>Canvas FFT Flashcards</h4>
                 <p>
-                  During the "Zero-to-Mastery" web developer course, I participated in a coding competition. The competition required solving 3 problems using Javascript. I went beyond the requirements to incude  CSS, Dom Manipulation, and a funny image that changes with input.
+                  Interactive ASL vocabulary flashcards integrated into Canvas LMS via LTI. Features three study modes (Rehearsal, Tutorial, Screening), ASL-to-English typing practice, timed exercises with video recording, and progress tracking with an 85% mastery benchmark. Includes instructor tools for custom prompts and per-assignment configuration. Built with Canvas API, SproutVideo integration, and optional AI service proxies.
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Javascript and CSS
+                  Canvas LTI, JavaScript, SproutVideo API, AI Integration
                 </span>
               </div>
               <div className="link-box">
-                <a href="http://aslexpress.net/CodingCompetition6/">Details</a>
+                <a href="https://canvas.instructure.com/enroll/JY7MGN">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
@@ -112,21 +145,21 @@ export default class Portfolio extends Component {
             <div id="modal-02" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/SimpleMaps.jpg"
-                alt="Screen shot of ASL Geography SimpleMaps project" 
+                src="images/portfolio/ASLexpress.jpg"
+                alt="Bulk Canvas Editor"
               />
               <div className="description-box">
-                <h4>SimpleMaps</h4>
+                <h4>Bulk Canvas Editor</h4>
                 <p>
-                  Collaboration with ASL Resources to link YouTube country signs to an interactive map.
+                  A full-stack bulk operations tool for Canvas LMS built with NestJS and TypeScript. Writes across all major entity types — assignments, quizzes, discussions, pages, modules, files, assignment groups, custom columns, overrides, and exports — via the Canvas REST API. Features an AG Grid frontend for inline editing, session-based OAuth authentication, and shared TypeScript field definitions for type safety across the stack.
                 </p>
                 <span className="categories">
                   <i className="fa fa-tag" />
-                  Web Development, YouTube API
+                  NestJS, TypeScript, Canvas REST API, AG Grid, OAuth
                 </span>
               </div>
               <div className="link-box">
-                <a href="https://simplemaps.com/custom/world/2ljkkdoN#finish">Details</a>
+                <a href="https://www.linkedin.com/in/scott-whitney/">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
@@ -135,7 +168,7 @@ export default class Portfolio extends Component {
               <img
                 className="scale-with-grid"
                 src="images/portfolio/ASLexpress.jpg"
-                alt="Screen shot of the receptive mode in the ASLexpress App" 
+                alt="Screen shot of the receptive mode in the ASLexpress App"
               />
               <div className="description-box">
                 <h4>ASLexpress</h4>
@@ -175,7 +208,50 @@ export default class Portfolio extends Component {
               </div>
             </div>
             {/* modal-04 End */}
-            {/* modal-01 End */}
+            <div id="modal-05" className="popup-modal mfp-hide">
+              <img
+                className="scale-with-grid"
+                src="images/portfolio/SimpleMaps.jpg"
+                alt="Screen shot of ASL Geography SimpleMaps project"
+              />
+              <div className="description-box">
+                <h4>SimpleMaps</h4>
+                <p>
+                  Collaboration with ASL Resources to link YouTube country signs to an interactive map.
+                </p>
+                <span className="categories">
+                  <i className="fa fa-tag" />
+                  Web Development, YouTube API
+                </span>
+              </div>
+              <div className="link-box">
+                <a href="https://simplemaps.com/custom/world/2ljkkdoN#finish">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            {/* modal-05 End */}
+            <div id="modal-06" className="popup-modal mfp-hide">
+              <img
+                className="scale-with-grid"
+                src="images/portfolio/CodingCompetition.jpg"
+                alt="Screen shot from the ZTM coding competition 6 submission"
+              />
+              <div className="description-box">
+                <h4>Coding Competition</h4>
+                <p>
+                  During the "Zero-to-Mastery" web developer course, I participated in a coding competition. The competition required solving 3 problems using Javascript. I went beyond the requirements to include CSS, Dom Manipulation, and a funny image that changes with input.
+                </p>
+                <span className="categories">
+                  <i className="fa fa-tag" />
+                  Javascript and CSS
+                </span>
+              </div>
+              <div className="link-box">
+                <a href="http://aslexpress.net/CodingCompetition6/">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            {/* modal-06 End */}
           </div>{' '}
           {/* row End */}
         </section>{' '}

@@ -3,13 +3,6 @@ export default class Resume extends Component {
   render() {
 
     let resumeData = this.props.resumeData;
-    //loop through the skills, get the skill percent and then set each in a card for future implementation
-    let skillStyle = {
-      height: '1em',
-      background: '#2D2D2D',
-      display: 'block',
-      width: '60%',//this will allow eventual replacing with database values width: '${width}',
-    };
     return (
       <React.Fragment>
         {/*generated code*/}
@@ -106,29 +99,49 @@ export default class Resume extends Component {
               <div id="skills">
                 <h1>Skills</h1>
                 <ul>
-                  <li>CSS</li>
-                  <div class="box">
-                    <div style={skillStyle} id="one" ></div>
-                  </div>
-                  <li>NodeJS</li>
-                  <div class="box">
-                    <div id="two"></div>
-                  </div>
-                  <li>React</li>
-                  <div class="box">
-                    <div id="three"></div>
-                  </div>
-                  <li>MySQL, PostgreSQL</li>
-                  <div class="box">
-                    <div id="four"></div>
+                  <li>Canvas REST API</li>
+                  <div className="box">
+                    <div id="one"></div>
                   </div>
                   <li>JavaScript</li>
-                  <div class="box">
+                  <div className="box">
+                    <div id="two"></div>
+                  </div>
+                  <li>Node.js</li>
+                  <div className="box">
+                    <div id="three"></div>
+                  </div>
+                  <li>Canvas LTI</li>
+                  <div className="box">
+                    <div id="four"></div>
+                  </div>
+                  <li>NestJS</li>
+                  <div className="box">
                     <div id="five"></div>
                   </div>
-                  <li>PHP</li>
-                  <div class="box">
+                  <li>TypeScript</li>
+                  <div className="box">
                     <div id="six"></div>
+                  </div>
+                  <li>AG Grid</li>
+                  <div className="box">
+                    <div id="seven"></div>
+                  </div>
+                  <li>OAuth / Session Auth</li>
+                  <div className="box">
+                    <div id="eight"></div>
+                  </div>
+                  <li>SQL (MySQL)</li>
+                  <div className="box">
+                    <div id="nine"></div>
+                  </div>
+                  <li>PHP</li>
+                  <div className="box">
+                    <div id="ten"></div>
+                  </div>
+                  <li>React</li>
+                  <div className="box">
+                    <div id="eleven"></div>
                   </div>
                 </ul>
               </div>

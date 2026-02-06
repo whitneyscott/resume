@@ -46,9 +46,9 @@ export default class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="download-resum" className="button">
-                      <i className="fa fa-download" />
-                      Download Resume
+                    <a href="https://www.linkedin.com/in/scott-whitney/" className="button">
+                      <i className="fa fa-linkedin" />
+                      View LinkedIn Profile
                     </a>
                   </p>
                 </div>

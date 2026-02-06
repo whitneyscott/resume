@@ -1,51 +1,20 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        {/*generated code*/}
-        {/*<footer>
+        <footer>
           <div className="row">
             <div className="twelve columns">
               <ul className="social-links">
                 <li>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/scott-whitney/">
                     <i className="fa fa-linkedin" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-skype" />
                   </a>
                 </li>
               </ul>
               <ul className="copyright">
-                <li>© Copyright 2014 CeeVee</li>
+                <li>&copy; Copyright 2025 Scott Whitney</li>
                 <li>
                   Design by{' '}
                   <a title="Styleshout" href="http://www.styleshout.com/">
@@ -60,7 +29,7 @@ export default class Header extends Component {
               </a>
             </div>
           </div>
-        </footer>*/}
+        </footer>
       </React.Fragment>
     );
   }

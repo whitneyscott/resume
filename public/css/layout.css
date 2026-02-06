@@ -482,7 +482,7 @@ ul {
 
 #one {
   height: 1em;
-  width: 60%;
+  width: 95%;
   background: #2D2D2D;
   display: block;
 }
@@ -496,28 +496,63 @@ ul {
 
 #three {
   height: 1em;
-  width: 50%;
+  width: 85%;
   background: #2D2D2D;
   display: block;
 }
 
 #four {
   height: 1em;
-  width: 90%;
+  width: 85%;
   background: #2D2D2D;
   display: block;
 }
 
 #five {
   height: 1em;
-  width: 92%;
+  width: 80%;
   background: #2D2D2D;
   display: block;
 }
 
 #six {
   height: 1em;
-  width: 85%;
+  width: 80%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#seven {
+  height: 1em;
+  width: 75%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#eight {
+  height: 1em;
+  width: 75%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#nine {
+  height: 1em;
+  width: 70%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#ten {
+  height: 1em;
+  width: 65%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#eleven {
+  height: 1em;
+  width: 60%;
   background: #2D2D2D;
   display: block;
 }
@@ -530,7 +565,12 @@ ul {
 #skills:hover #three,
 #skills:hover #four,
 #skills:hover #five,
-#skills:hover #six {
+#skills:hover #six,
+#skills:hover #seven,
+#skills:hover #eight,
+#skills:hover #nine,
+#skills:hover #ten,
+#skills:hover #eleven {
   animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
 }
 

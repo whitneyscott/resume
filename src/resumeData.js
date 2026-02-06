@@ -1,8 +1,8 @@
 let resumeData = {
-	imagebaseurl: 'http://localhost:3000/',
 	firstName: 'Scott',
 	lastName: 'Whitney',
-	role: 'Full Stack Developer',
+	role: 'Full Stack Developer & EdTech Engineer',
+	linkedIn: 'https://www.linkedin.com/in/scott-whitney/',
 	country: 'USA',
 	state: 'TX',
 	city: 'Nacogdoches',
@@ -40,6 +40,7 @@ let resumeData = {
 	degree3: 'EdD',
 	major3: 'Deaf Education and Deaf Studies',
 	details3: 'The dissertation reported research on using a panoramic adventure game as a teaching tool. In order to study the game, I scripted the interactive elements using Adobe Director Lingo and resulted in a Shockwave app.',
+	gradmo3: 'May',
 	gradyr3: '2001',
 	skillsummary:'Various projects spanning a wide range of requirements have resulted in the acquisition of skills necessary for Full Stack development:',
 	skill1:'PHP',
