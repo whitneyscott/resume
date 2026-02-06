@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt="Canvas FFT Flashcards" src="images/portfolio/ASLexpress.jpg" />
+                      <img alt="Canvas FFT Flashcards" src="images/portfolio/FlashCards.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Canvas FFT Flashcards</h5>
@@ -34,7 +34,7 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt="Bulk Canvas Editor" src="images/portfolio/ASLexpress.jpg" />
+                      <img alt="Bulk Canvas Editor" src="images/portfolio/BulkCanvasEditor.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Bulk Canvas Editor</h5>
@@ -123,7 +123,7 @@ export default class Portfolio extends Component {
             <div id="modal-01" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/ASLexpress.jpg"
+                src="images/portfolio/FlashCards.png"
                 alt="Canvas FFT Flashcards"
               />
               <div className="description-box">
@@ -145,7 +145,7 @@ export default class Portfolio extends Component {
             <div id="modal-02" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="images/portfolio/ASLexpress.jpg"
+                src="images/portfolio/BulkCanvasEditor.png"
                 alt="Bulk Canvas Editor"
               />
               <div className="description-box">
