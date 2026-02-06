@@ -25,6 +25,7 @@
   "devDependencies": {
     "tachyons": "^4.12.0"
   },
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
