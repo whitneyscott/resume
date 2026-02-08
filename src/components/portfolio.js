@@ -159,7 +159,7 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className="link-box">
-                <a href="https://www.linkedin.com/in/scott-whitney/">Details</a>
+                <span style={{color: '#999', fontSize: '12px'}}>Live demo pending migration to LTI 1.3</span>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
