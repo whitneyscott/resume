@@ -54,14 +54,10 @@ export default class Header extends Component {
                 I am {resumeData.firstName} {resumeData.lastName}.
               </h1>
               <h3>I am a {resumeData.role}.</h3>
+              <h3 style={{fontSize: '16px', color: '#A0A0A0', marginTop: '6px'}}>
+                Building technology that removes barriers for the Deaf community
+              </h3>
               <hr />
-              <ul className="social">
-                <li>
-                  <a href="https://www.linkedin.com/in/scott-whitney/">
-                    <i className="fa fa-linkedin" />
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
           <p className="scrolldown">

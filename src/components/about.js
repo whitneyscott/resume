@@ -39,16 +39,22 @@ export default class About extends Component {
                     {resumeData.address} {resumeData.street} <br />
                     {resumeData.city}, {resumeData.state} {resumeData.zipcode}
                     <br />
-                    <span>(936) 462-7579</span>
+                    <span>(936) 462-7579 (text only for Deaf access)</span>
                     <br />
                     <span>{resumeData.email}</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="https://www.linkedin.com/in/scott-whitney/" className="button">
-                      <i className="fa fa-linkedin" />
-                      View LinkedIn Profile
+                    <a href="mailto:whitneyscottasl@gmail.com" className="button">
+                      <i className="fa fa-envelope" />
+                      Email Me
+                    </a>
+                  </p>
+                  <p>
+                    <a href="https://wa.me/19364627579" className="button">
+                      <i className="fa fa-whatsapp" />
+                      WhatsApp
                     </a>
                   </p>
                 </div>

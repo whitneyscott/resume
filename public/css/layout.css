@@ -557,6 +557,13 @@ ul {
   display: block;
 }
 
+#twelve {
+  height: 1em;
+  width: 60%;
+  background: #2D2D2D;
+  display: block;
+}
+
 
 /* Large hover state for animation */
 
@@ -570,7 +577,8 @@ ul {
 #skills:hover #eight,
 #skills:hover #nine,
 #skills:hover #ten,
-#skills:hover #eleven {
+#skills:hover #eleven,
+#skills:hover #twelve {
   animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
 }
 

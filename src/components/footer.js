@@ -7,11 +7,6 @@ export default class Footer extends Component {
           <div className="row">
             <div className="twelve columns">
               <ul className="social-links">
-                <li>
-                  <a href="https://www.linkedin.com/in/scott-whitney/">
-                    <i className="fa fa-linkedin" />
-                  </a>
-                </li>
               </ul>
               <ul className="copyright">
                 <li>&copy; Copyright 2025 Scott Whitney</li>

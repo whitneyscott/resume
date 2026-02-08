@@ -156,6 +156,10 @@ export default class Resume extends Component {
                   <div className="box">
                     <div id="eleven"></div>
                   </div>
+                  <li>AI / Computer Vision</li>
+                  <div className="box">
+                    <div id="twelve"></div>
+                  </div>
                 </ul>
               </div>
 

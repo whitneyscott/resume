@@ -34,6 +34,23 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
+                      <img alt="SnapShot ASL — real-time fingerspelling recognition" src="images/portfolio/SnapShotASL.jpg" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>SnapShot ASL</h5>
+                          <p>C++, Computer Vision, Pattern Recognition</p>
+                        </div>
+                      </div>
+                      <div className="link-icon">
+                        <i className="fa fa-plus" />
+                      </div>
+                    </a>
+                  </div>
+                </div>{' '}
+                {/* item end */}
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <a href="#modal-03" title>
                       <img alt="Bulk Canvas Editor" src="images/portfolio/BulkCanvasEditor.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -50,29 +67,12 @@ export default class Portfolio extends Component {
                 {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-03" title>
+                    <a href="#modal-04" title>
                       <img alt="Screen shot of the receptive mode in the ASLexpress App" src="images/portfolio/ASLexpress.jpg" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>ASLexpress</h5>
                           <p>PHP and Database Manipulation</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="fa fa-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>{' '}
-                {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-04" title>
-                      <img alt="Icon of the SnapShot ASL App" src="images/portfolio/SnapShotASL.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>SnapShot ASL</h5>
-                          <p>3D Fingerspelling Recognizer</p>
                         </div>
                       </div>
                       <div className="link-icon">
@@ -145,6 +145,28 @@ export default class Portfolio extends Component {
             <div id="modal-02" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
+                src="images/portfolio/SnapShotASL.jpg"
+                alt="SnapShot ASL — real-time fingerspelling recognition"
+              />
+              <div className="description-box">
+                <h4>SnapShot ASL</h4>
+                <p>
+                  Real-time ASL fingerspelling recognition system built with C++ and the Intel RealSense depth camera. Developed in 45 days for the Intel RealSense App Development competition. Uses computer vision and pattern matching to identify American Sign Language handshapes from 3D sensor data.
+                </p>
+                <span className="categories">
+                  <i className="fa fa-tag" />
+                  C++, Computer Vision, Intel RealSense, Pattern Recognition
+                </span>
+              </div>
+              <div className="link-box">
+                <a href="https://www.youtube.com/watch?v=ZLLb_WjFOQM">Details</a>
+                <a className="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            {/* modal-02 End */}
+            <div id="modal-03" className="popup-modal mfp-hide">
+              <img
+                className="scale-with-grid"
                 src="images/portfolio/BulkCanvasEditor.png"
                 alt="Bulk Canvas Editor"
               />
@@ -163,8 +185,8 @@ export default class Portfolio extends Component {
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
-            {/* modal-02 End */}
-            <div id="modal-03" className="popup-modal mfp-hide">
+            {/* modal-03 End */}
+            <div id="modal-04" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
                 src="images/portfolio/ASLexpress.jpg"
@@ -182,28 +204,6 @@ export default class Portfolio extends Component {
               </div>
               <div className="link-box">
                 <a href="http://www.aslexpress.net/quizDev/">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            {/* modal-03 End */}
-            <div id="modal-04" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/SnapShotASL.jpg"
-                alt="Icon of the SnapShot ASL App"
-              />
-              <div className="description-box">
-                <h4>SnapShot ASL</h4>
-                <p>
-                  Used VisualStudio with C++ to recognize fingerspelling. The App was developed in 45 days as part of the Intel RealSense App Development competition. Uses simple comparison with example data in a database.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  C++ in VisualStudio
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="https://www.youtube.com/watch?v=ZLLb_WjFOQM">Details</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>

@@ -1,7 +1,7 @@
 let resumeData = {
 	firstName: 'Scott',
 	lastName: 'Whitney',
-	role: 'Full Stack Developer & EdTech Engineer',
+	role: 'Full Stack Developer & ASL EdTech Engineer',
 	linkedIn: 'https://www.linkedin.com/in/scott-whitney/',
 	country: 'USA',
 	state: 'TX',
@@ -17,7 +17,7 @@ let resumeData = {
 	testimonial2: 'While at SFA, I have observed a very committed and competent faculty member who has put in the time, provided the leadership and stability necessary to grow a very strong, thriving program for prospective teachers for the deaf and hard of hearing.',
 	testifier2: 'Paige Mask',
 	proficient: 'full-stack developer specializing in Canvas LMS integrations and accessible EdTech',
-	enthusiasm: 'aesthetics and efficient code',
+	enthusiasm: 'building accessible technology and efficient code',
 	experience:
 		'developing applications for American Sign Language instruction using multiple languages and technologies',
 	priority:

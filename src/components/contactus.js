@@ -20,10 +20,15 @@ export default function Contactus(props) {
         </div>
         <div className="row">
           <div className="eight columns">
-            <h4>Send me an email</h4>
+            <h4>Reach out</h4>
             <p>
               <a href="mailto:whitneyscottasl@gmail.com" className="button">
                 <i className="fa fa-envelope" /> Email Me
+              </a>
+            </p>
+            <p>
+              <a href="https://wa.me/19364627579" className="button">
+                <i className="fa fa-whatsapp" /> WhatsApp
               </a>
             </p>
           </div>
@@ -36,7 +41,7 @@ export default function Contactus(props) {
                 {resumeData.address} {resumeData.street} <br />
                 {resumeData.city}, {resumeData.state} {resumeData.zipcode}
                 <br />
-                <span>(936) 615-3285</span>
+                <span>(936) 615-3285 (text only for Deaf access)</span>
               </p>
             </div>
           </aside>
