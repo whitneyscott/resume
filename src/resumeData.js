@@ -12,11 +12,11 @@ let resumeData = {
 	textnumber: '936-615-3285',
 	voicenumber: '936-463-7579',
 	email: 'whitneyscottasl@gmail.com',
-	testimonial1: 'Dr. Whitney`s use of technology to enhance learning  experiences hasbeen of benefit to students and faculty alike.',
+	testimonial1: 'Dr. Whitney\u2019s use of technology to enhance learning experiences has been of benefit to students and faculty alike.',
 	testifier1: 'Janet Kamps',
-	testimonial2: 'While at SFA, I have observed a very committed and competent faculty member who has put in the time, provided the leadership and stability necssary to grow a very strong, thriving program for prospective teachers for the deaf and hard of hearing.',
+	testimonial2: 'While at SFA, I have observed a very committed and competent faculty member who has put in the time, provided the leadership and stability necessary to grow a very strong, thriving program for prospective teachers for the deaf and hard of hearing.',
 	testifier2: 'Paige Mask',
-	proficient: 'database and javascript engineer',
+	proficient: 'full-stack developer specializing in Canvas LMS integrations and accessible EdTech',
 	enthusiasm: 'aesthetics and efficient code',
 	experience:
 		'developing applications for American Sign Language instruction using multiple languages and technologies',
@@ -42,14 +42,19 @@ let resumeData = {
 	details3: 'The dissertation reported research on using a panoramic adventure game as a teaching tool. In order to study the game, I scripted the interactive elements using Adobe Director Lingo and resulted in a Shockwave app.',
 	gradmo3: 'May',
 	gradyr3: '2001',
-	skillsummary:'Various projects spanning a wide range of requirements have resulted in the acquisition of skills necessary for Full Stack development:',
+	skillsummary:'Deep experience building Canvas LMS tools \u2014 from interactive ASL flashcards with LTI integration to a full-stack bulk editor handling all Canvas entity types:',
 	skill1:'PHP',
 	skill1lvl:'60%',
+	work2Loc:'Tyler Junior College',
+	work2Role1: 'Professor',
+	work2Start:'2019',
+	work2End:'Present',
+	work2Summary:'Teach ASL and Deaf Education courses. Developed a SproutVideo-to-QTI conversion tool, PowerPoint macros for generating random vocabulary video prompts for Timed Writing Assessments, and spreadsheet-based scheduling tools with automated conflict flagging for student cohorts, teachers, and rooms.',
 	work1Loc:'Stephen F. Austin State University',
 	work1Role1: 'Associate Professor',
 	work1Role2:'Program Director - 12 years',
 	work1Start:'2002',
-	work1End:'Present',
-	work1Summary:'Lead the development and implementation of online courses. Developed ASLexpress software to increase foreign language study efficiency. Created an app to recognize American Sign Language handshapes.'
+	work1End:'2019',
+	work1Summary:'Led the development and implementation of online courses. Developed ASLexpress software to increase foreign language study efficiency. Created an app to recognize American Sign Language handshapes.'
 	};
 export default resumeData;

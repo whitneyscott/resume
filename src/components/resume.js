@@ -69,7 +69,20 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>{resumeData.work1loc} </h3>
+                  <h3>{resumeData.work2Loc} </h3>
+                  <p className="info">
+                    {resumeData.work2Role1} <span>•</span>{' '}
+                    <em className="date">{resumeData.work2Start} - {resumeData.work2End}</em>
+                  </p>
+                  <p>
+                  {resumeData.work2Summary}
+                  </p>
+                </div>
+              </div>{' '}
+              {/* item end */}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>{resumeData.work1Loc} </h3>
                   <p className="info">
                     {resumeData.work1Role1} <span>•</span>{' '}
                     <em className="date">{resumeData.work1Start} - {resumeData.work1End}</em>

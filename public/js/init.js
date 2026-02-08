@@ -25,6 +25,15 @@
 	    var target = this.hash,
 	    $target = $(target);
 
+	    // Swap profile pic to "Aha!" on nav click
+	    var $pic = $('img.profile-pic');
+	    if ($pic.length) {
+	        $pic.attr('src', 'images/profilepicBack.jpg');
+	        setTimeout(function() {
+	            $pic.attr('src', 'images/profilepic.png');
+	        }, 2000);
+	    }
+
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
 	    }, 800, 'swing', function () {
