@@ -28,7 +28,7 @@
 	    // Swap profile pic to "Aha!" on nav click
 	    var $pic = $('img.profile-pic');
 	    if ($pic.length) {
-	        $pic.attr('src', 'images/profilepicBack.jpg');
+	        $pic.attr('src', 'images/Inspiration.png');
 	        setTimeout(function() {
 	            $pic.attr('src', 'images/profilepic.png');
 	        }, 2000);
